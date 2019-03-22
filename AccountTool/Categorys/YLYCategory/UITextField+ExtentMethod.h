@@ -10,11 +10,5 @@
 
 @interface UITextField (ExtentMethod)
 
-/**
- * @brief 快速创建 textField
- */
-+ (UITextField *)createTextFieldPlaceHolder:(NSString *)placeHolder
-                                  fontFloat:(CGFloat)fontFloat
-                                  textColor:(UIColor *)textColor;
 
 @end

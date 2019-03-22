@@ -1,23 +1,21 @@
 //
-//  BootUnit.h
-//  Eyuemeiche
+//  YLYRouter.h
+//  AccountTool
 //
-//  Created by yu on 12/02/2018.
-//  Copyright © 2018 yu. All rights reserved.
+//  Created by yu on 2019/3/21.
+//  Copyright © 2019 yu. All rights reserved.
 //
-
-/*
- app层级配置unit
- */
 
 #import <Foundation/Foundation.h>
 
 @class YLYRootTabbarController;
 @class YLYRootNavigationController;
 
-@interface BootUnit : NSObject
+NS_ASSUME_NONNULL_BEGIN
 
-+ (instancetype)shareUnit;
+@interface YLYRouter : NSObject
+
++ (instancetype)shareInstance;
 
 /** tabbar */
 @property (nonatomic, readonly, strong)YLYRootTabbarController *tabbarController;
@@ -27,20 +25,15 @@
 @property (nonatomic, readonly, strong)YLYRootNavigationController *loginNavi;//注册流程navi
 
 
+/* 推出页面方法 */
 
-
-
-/*
- 层级关系方法
- */
-
+#pragma mark - < 登录 >
 /** 推出loginVC */
-- (void)pushLoginVC;
++ (void)pushLoginVC;
 /** 收回loginVC */
-- (void)closeLoginVC;
-
-
-
++ (void)closeLoginVC;
 
 
 @end
+
+NS_ASSUME_NONNULL_END

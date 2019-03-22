@@ -12,8 +12,8 @@
 
 // 获取安全字符串
 + (NSString *)safeString:(NSString *)inputString {
-    if (![inputString isKindOfClass:[NSNull class]]
-        && inputString != nil
+    if (inputString != nil
+        && [inputString isKindOfClass:[NSString class]]
         && inputString.length != 0
         && ![inputString isEqualToString:@"(null)"]
         && ![inputString isEqualToString:@"<null>"]

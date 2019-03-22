@@ -146,15 +146,5 @@ static char leftNameKey;
     return CGRectContainsPoint(rect, point) ? self : nil;
 }
 
-/* 快速创建 */
-+ (UIButton *)createNormalButtonText:(NSString *)text font:(CGFloat)fontFloat color:(UIColor *)color {
-    UIButton *tempButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [tempButton setTitle:[NSString safeString:text] forState:UIControlStateNormal];
-    tempButton.titleLabel.font = [UIFont systemFontOfSize:fontFloat];
-    [tempButton setTitleColor:color forState:UIControlStateNormal];
-    
-    return tempButton;
-}
-
 
 @end

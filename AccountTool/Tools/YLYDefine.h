@@ -8,6 +8,25 @@
 
 #import "YLYHelper.h"
 
+// 常量
+#import "YLYConstantDefine.h"
+
+// 类别
+#import "NSString+ExtendMethod.h"
+#import "NSMutableDictionary+ExtendMethod.h"
+#import "UILabel+ExtendMethod.h"
+#import "UILabel+ExtendMethod.h"
+#import "UIButton+ExtentMethod.h"
+#import "UITextField+ExtentMethod.h"
+#import "UIColor+ExtendMethod.h"
+#import "NSDictionary+ExtendMethod.h"
+#import "NSArray+ExtendMethod.h"
+
+// 工具类
+#import "YLYToastHelper.h"
+#import "YLYNotifyHelper.h"
+
+
 /*
  该对象用定义宏
  */
@@ -40,7 +59,7 @@
 /// 获取当前屏幕尺寸与6屏幕适配比例
 #define SCREEN_SCALE (SCREEN_WIDTH/375.0)
 ///下方安全区高度
-#define SAFETY_AREA_HEIGHT (iPhoneX?34.0:0)
+#define SAFETY_AREA_HEIGHT (iPhoneXSeriesDevice?34.0:0)
 /// tabbar高度
 #define TABBAR_HEIGHT 49.0
 /// 状态栏高度
@@ -56,6 +75,9 @@
 #define iPhone6P ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? ((CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size)) ||  (CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size))): NO)
 #define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhoneXMax ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//! 是否是iPhoneX系列 - 有安全区高度
+#define iPhoneXSeriesDevice [YLYHelper isIphoneXSeries]
 
 //#define iPhone6P ((SCREEN_WIDTH == 414)?YES:NO)//414.000000, 736.000000
 //#define iPhone6 ((SCREEN_WIDTH == 375)?YES:NO)//375.000000, 667.000000

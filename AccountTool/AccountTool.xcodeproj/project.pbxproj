@@ -19,8 +19,30 @@
 		9A2F94F322058937001E14F1 /* NSString+ExtendMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F94E822058936001E14F1 /* NSString+ExtendMethod.m */; };
 		9A2F94F422058937001E14F1 /* UIColor+ExtendMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F94EA22058936001E14F1 /* UIColor+ExtendMethod.m */; };
 		9A2F94F522058937001E14F1 /* UILabel+ExtendMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F94EC22058936001E14F1 /* UILabel+ExtendMethod.m */; };
+		9A7A8C092243A88E002F44DF /* YLYServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C082243A88E002F44DF /* YLYServiceManager.m */; };
+		9A7A8C102243A9EC002F44DF /* YLYTrackerServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C0F2243A9EC002F44DF /* YLYTrackerServer.m */; };
+		9A7A8C162243AA04002F44DF /* YLYRouterServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C152243AA04002F44DF /* YLYRouterServer.m */; };
+		9A7A8C192243AA10002F44DF /* YLYNetServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C182243AA10002F44DF /* YLYNetServer.m */; };
+		9A7A8C1D2243ABC1002F44DF /* YLYRootServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C1C2243ABC1002F44DF /* YLYRootServer.m */; };
+		9A7A8C212243B5CA002F44DF /* YLYLocalConfigServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A8C202243B5CA002F44DF /* YLYLocalConfigServer.m */; };
+		9A8DFA402243759B00BAEA84 /* YLYRootTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA3F2243759B00BAEA84 /* YLYRootTabbarController.m */; };
+		9A8DFA43224375D700BAEA84 /* YLYRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA42224375D700BAEA84 /* YLYRootNavigationController.m */; };
+		9A8DFA5D224377D900BAEA84 /* YLYRootLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA4C224377D900BAEA84 /* YLYRootLabel.m */; };
+		9A8DFA5E224377D900BAEA84 /* YLYRootButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA4F224377D900BAEA84 /* YLYRootButton.m */; };
+		9A8DFA5F224377D900BAEA84 /* YLYRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA52224377D900BAEA84 /* YLYRootView.m */; };
+		9A8DFA60224377D900BAEA84 /* YLYRootImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA55224377D900BAEA84 /* YLYRootImageView.m */; };
+		9A8DFA61224377D900BAEA84 /* YLYRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA59224377D900BAEA84 /* YLYRootCell.m */; };
+		9A8DFA62224377D900BAEA84 /* YLYRootTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA5C224377D900BAEA84 /* YLYRootTextField.m */; };
+		9A8DFA67224380FC00BAEA84 /* YLYToastHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA66224380FC00BAEA84 /* YLYToastHelper.m */; };
+		9A8DFA6B2243861500BAEA84 /* YLYNotifyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA6A2243861500BAEA84 /* YLYNotifyHelper.m */; };
+		9A8DFA6E2243892600BAEA84 /* YLYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA6D2243892600BAEA84 /* YLYRootViewController.m */; };
+		9A8DFA712243893B00BAEA84 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA702243893B00BAEA84 /* LoginViewController.m */; };
+		9A8DFA8122438AE000BAEA84 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8022438AE000BAEA84 /* MainListViewController.m */; };
+		9A8DFA8422438AEB00BAEA84 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8322438AEB00BAEA84 /* SettingViewController.m */; };
+		9A8DFA8722438AF500BAEA84 /* SearchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8622438AF500BAEA84 /* SearchingViewController.m */; };
+		9A8DFA8B22438C8100BAEA84 /* YLYPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8A22438C8100BAEA84 /* YLYPropertyManager.m */; };
+		9A8DFA8F2243904C00BAEA84 /* YLYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8E2243904C00BAEA84 /* YLYRouter.m */; };
 		9AB3889D21EF18A400EB727D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3889C21EF18A400EB727D /* AppDelegate.m */; };
-		9AB388A021EF18A400EB727D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3889F21EF18A400EB727D /* ViewController.m */; };
 		9AB388A321EF18A400EB727D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB388A121EF18A400EB727D /* Main.storyboard */; };
 		9AB388A621EF18A400EB727D /* AccountTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AB388A421EF18A400EB727D /* AccountTool.xcdatamodeld */; };
 		9AB388A821EF18A600EB727D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB388A721EF18A600EB727D /* Assets.xcassets */; };
@@ -50,7 +72,6 @@
 		9A2F94E122058936001E14F1 /* NSDictionary+ExtendMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ExtendMethod.m"; sourceTree = "<group>"; };
 		9A2F94E222058936001E14F1 /* UITextField+ExtentMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ExtentMethod.m"; sourceTree = "<group>"; };
 		9A2F94E322058936001E14F1 /* UILabel+ExtendMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ExtendMethod.h"; sourceTree = "<group>"; };
-		9A2F94E422058936001E14F1 /* CategoryConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryConfig.h; sourceTree = "<group>"; };
 		9A2F94E522058936001E14F1 /* UIButton+ExtentMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExtentMethod.m"; sourceTree = "<group>"; };
 		9A2F94E622058936001E14F1 /* NSMutableDictionary+ExtendMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ExtendMethod.m"; sourceTree = "<group>"; };
 		9A2F94E722058936001E14F1 /* NSArray+ExtendMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ExtendMethod.h"; sourceTree = "<group>"; };
@@ -60,11 +81,57 @@
 		9A2F94EB22058936001E14F1 /* NSDictionary+ExtendMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ExtendMethod.h"; sourceTree = "<group>"; };
 		9A2F94EC22058936001E14F1 /* UILabel+ExtendMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ExtendMethod.m"; sourceTree = "<group>"; };
 		9A2F94ED22058936001E14F1 /* UIButton+ExtentMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExtentMethod.h"; sourceTree = "<group>"; };
+		9A2F94F822225EF3001E14F1 /* YLYConstantDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYConstantDefine.h; sourceTree = "<group>"; };
+		9A7A8C072243A88E002F44DF /* YLYServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYServiceManager.h; sourceTree = "<group>"; };
+		9A7A8C082243A88E002F44DF /* YLYServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYServiceManager.m; sourceTree = "<group>"; };
+		9A7A8C0E2243A9EC002F44DF /* YLYTrackerServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYTrackerServer.h; sourceTree = "<group>"; };
+		9A7A8C0F2243A9EC002F44DF /* YLYTrackerServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYTrackerServer.m; sourceTree = "<group>"; };
+		9A7A8C142243AA04002F44DF /* YLYRouterServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRouterServer.h; sourceTree = "<group>"; };
+		9A7A8C152243AA04002F44DF /* YLYRouterServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRouterServer.m; sourceTree = "<group>"; };
+		9A7A8C172243AA10002F44DF /* YLYNetServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYNetServer.h; sourceTree = "<group>"; };
+		9A7A8C182243AA10002F44DF /* YLYNetServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYNetServer.m; sourceTree = "<group>"; };
+		9A7A8C1A2243AAF0002F44DF /* YLYServerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYServerProtocol.h; sourceTree = "<group>"; };
+		9A7A8C1B2243ABC1002F44DF /* YLYRootServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRootServer.h; sourceTree = "<group>"; };
+		9A7A8C1C2243ABC1002F44DF /* YLYRootServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRootServer.m; sourceTree = "<group>"; };
+		9A7A8C1F2243B5CA002F44DF /* YLYLocalConfigServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYLocalConfigServer.h; sourceTree = "<group>"; };
+		9A7A8C202243B5CA002F44DF /* YLYLocalConfigServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYLocalConfigServer.m; sourceTree = "<group>"; };
+		9A8DFA3E2243759B00BAEA84 /* YLYRootTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRootTabbarController.h; sourceTree = "<group>"; };
+		9A8DFA3F2243759B00BAEA84 /* YLYRootTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRootTabbarController.m; sourceTree = "<group>"; };
+		9A8DFA41224375D700BAEA84 /* YLYRootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRootNavigationController.h; sourceTree = "<group>"; };
+		9A8DFA42224375D700BAEA84 /* YLYRootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRootNavigationController.m; sourceTree = "<group>"; };
+		9A8DFA4B224377D900BAEA84 /* YLYRootLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootLabel.h; sourceTree = "<group>"; };
+		9A8DFA4C224377D900BAEA84 /* YLYRootLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootLabel.m; sourceTree = "<group>"; };
+		9A8DFA4E224377D900BAEA84 /* YLYRootButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootButton.h; sourceTree = "<group>"; };
+		9A8DFA4F224377D900BAEA84 /* YLYRootButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootButton.m; sourceTree = "<group>"; };
+		9A8DFA51224377D900BAEA84 /* YLYRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootView.h; sourceTree = "<group>"; };
+		9A8DFA52224377D900BAEA84 /* YLYRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootView.m; sourceTree = "<group>"; };
+		9A8DFA55224377D900BAEA84 /* YLYRootImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootImageView.m; sourceTree = "<group>"; };
+		9A8DFA56224377D900BAEA84 /* YLYRootImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootImageView.h; sourceTree = "<group>"; };
+		9A8DFA58224377D900BAEA84 /* YLYRootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootCell.h; sourceTree = "<group>"; };
+		9A8DFA59224377D900BAEA84 /* YLYRootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootCell.m; sourceTree = "<group>"; };
+		9A8DFA5B224377D900BAEA84 /* YLYRootTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYRootTextField.h; sourceTree = "<group>"; };
+		9A8DFA5C224377D900BAEA84 /* YLYRootTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYRootTextField.m; sourceTree = "<group>"; };
+		9A8DFA65224380FC00BAEA84 /* YLYToastHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYToastHelper.h; sourceTree = "<group>"; };
+		9A8DFA66224380FC00BAEA84 /* YLYToastHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYToastHelper.m; sourceTree = "<group>"; };
+		9A8DFA692243861500BAEA84 /* YLYNotifyHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYNotifyHelper.h; sourceTree = "<group>"; };
+		9A8DFA6A2243861500BAEA84 /* YLYNotifyHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYNotifyHelper.m; sourceTree = "<group>"; };
+		9A8DFA6C2243892600BAEA84 /* YLYRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRootViewController.h; sourceTree = "<group>"; };
+		9A8DFA6D2243892600BAEA84 /* YLYRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRootViewController.m; sourceTree = "<group>"; };
+		9A8DFA6F2243893B00BAEA84 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9A8DFA702243893B00BAEA84 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9A8DFA7F22438AE000BAEA84 /* MainListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
+		9A8DFA8022438AE000BAEA84 /* MainListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
+		9A8DFA8222438AEB00BAEA84 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9A8DFA8322438AEB00BAEA84 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9A8DFA8522438AF500BAEA84 /* SearchingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchingViewController.h; sourceTree = "<group>"; };
+		9A8DFA8622438AF500BAEA84 /* SearchingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchingViewController.m; sourceTree = "<group>"; };
+		9A8DFA8922438C8100BAEA84 /* YLYPropertyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYPropertyManager.h; sourceTree = "<group>"; };
+		9A8DFA8A22438C8100BAEA84 /* YLYPropertyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYPropertyManager.m; sourceTree = "<group>"; };
+		9A8DFA8D2243904C00BAEA84 /* YLYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLYRouter.h; sourceTree = "<group>"; };
+		9A8DFA8E2243904C00BAEA84 /* YLYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYRouter.m; sourceTree = "<group>"; };
 		9AB3889821EF18A400EB727D /* AccountTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB3889B21EF18A400EB727D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AB3889C21EF18A400EB727D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AB3889E21EF18A400EB727D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AB3889F21EF18A400EB727D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AB388A221EF18A400EB727D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB388A521EF18A400EB727D /* AccountTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountTool.xcdatamodel; sourceTree = "<group>"; };
 		9AB388A721EF18A600EB727D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +195,11 @@
 		9A2F94A522018B22001E14F1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				9A7A8C1E2243B5A3002F44DF /* LocalConfigServer */,
+				9A7A8C0D2243A9D6002F44DF /* TrackerServer */,
+				9A7A8C0B2243A9B1002F44DF /* RouterServer */,
+				9A7A8C0A2243A990002F44DF /* NetServer */,
+				9A7A8C052243A870002F44DF /* YLYServiceManager */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -135,20 +207,19 @@
 		9A2F94A6220199FC001E14F1 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				9A8DFA7222438A4F00BAEA84 /* MainList */,
+				9A8DFA462243763900BAEA84 /* Setting */,
+				9A8DFA452243762700BAEA84 /* Search */,
+				9A8DFA442243762000BAEA84 /* Login */,
 			);
 			path = Flows;
-			sourceTree = "<group>";
-		};
-		9A2F94A722019A8F001E14F1 /* Units */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Units;
 			sourceTree = "<group>";
 		};
 		9A2F94A822019BC2001E14F1 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				9A8DFA472243776600BAEA84 /* Roots */,
+				9A8DFA3D2243757700BAEA84 /* Units */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -164,7 +235,6 @@
 		9A2F94DC22058936001E14F1 /* YLYCategory */ = {
 			isa = PBXGroup;
 			children = (
-				9A2F94E422058936001E14F1 /* CategoryConfig.h */,
 				9A2F94E722058936001E14F1 /* NSArray+ExtendMethod.h */,
 				9A2F94DE22058936001E14F1 /* NSArray+ExtendMethod.m */,
 				9A2F94E922058936001E14F1 /* UITextField+ExtentMethod.h */,
@@ -185,12 +255,330 @@
 			path = YLYCategory;
 			sourceTree = "<group>";
 		};
+		9A2F94F622225E66001E14F1 /* Contant */ = {
+			isa = PBXGroup;
+			children = (
+				9A2F94F822225EF3001E14F1 /* YLYConstantDefine.h */,
+			);
+			path = Contant;
+			sourceTree = "<group>";
+		};
+		9A7A8C052243A870002F44DF /* YLYServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A8C072243A88E002F44DF /* YLYServiceManager.h */,
+				9A7A8C082243A88E002F44DF /* YLYServiceManager.m */,
+				9A7A8C1A2243AAF0002F44DF /* YLYServerProtocol.h */,
+				9A7A8C1B2243ABC1002F44DF /* YLYRootServer.h */,
+				9A7A8C1C2243ABC1002F44DF /* YLYRootServer.m */,
+			);
+			path = YLYServiceManager;
+			sourceTree = "<group>";
+		};
+		9A7A8C0A2243A990002F44DF /* NetServer */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A8C172243AA10002F44DF /* YLYNetServer.h */,
+				9A7A8C182243AA10002F44DF /* YLYNetServer.m */,
+			);
+			path = NetServer;
+			sourceTree = "<group>";
+		};
+		9A7A8C0B2243A9B1002F44DF /* RouterServer */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A8C142243AA04002F44DF /* YLYRouterServer.h */,
+				9A7A8C152243AA04002F44DF /* YLYRouterServer.m */,
+			);
+			path = RouterServer;
+			sourceTree = "<group>";
+		};
+		9A7A8C0D2243A9D6002F44DF /* TrackerServer */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A8C0E2243A9EC002F44DF /* YLYTrackerServer.h */,
+				9A7A8C0F2243A9EC002F44DF /* YLYTrackerServer.m */,
+			);
+			path = TrackerServer;
+			sourceTree = "<group>";
+		};
+		9A7A8C1E2243B5A3002F44DF /* LocalConfigServer */ = {
+			isa = PBXGroup;
+			children = (
+				9A7A8C1F2243B5CA002F44DF /* YLYLocalConfigServer.h */,
+				9A7A8C202243B5CA002F44DF /* YLYLocalConfigServer.m */,
+			);
+			path = LocalConfigServer;
+			sourceTree = "<group>";
+		};
+		9A8DFA3D2243757700BAEA84 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA8C2243903700BAEA84 /* Router */,
+				9A8DFA8822438C7100BAEA84 /* Porperty */,
+				9A8DFA68224382AF00BAEA84 /* Notify */,
+				9A8DFA64224380E400BAEA84 /* Toast */,
+				9A8DFA63224380CA00BAEA84 /* Boot */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		9A8DFA442243762000BAEA84 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA7522438A8800BAEA84 /* Model */,
+				9A8DFA7422438A8200BAEA84 /* Views */,
+				9A8DFA7322438A7800BAEA84 /* VC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9A8DFA452243762700BAEA84 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA7E22438ABC00BAEA84 /* Model */,
+				9A8DFA7D22438AB500BAEA84 /* Views */,
+				9A8DFA7C22438AB100BAEA84 /* VC */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9A8DFA462243763900BAEA84 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA7B22438AAC00BAEA84 /* Model */,
+				9A8DFA7A22438AA800BAEA84 /* Views */,
+				9A8DFA7922438AA300BAEA84 /* VC */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		9A8DFA472243776600BAEA84 /* Roots */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA4A224377D900BAEA84 /* UILabel */,
+				9A8DFA4D224377D900BAEA84 /* UIButton */,
+				9A8DFA50224377D900BAEA84 /* UIView */,
+				9A8DFA54224377D900BAEA84 /* UIImageView */,
+				9A8DFA57224377D900BAEA84 /* UITableView */,
+				9A8DFA5A224377D900BAEA84 /* UITextField */,
+			);
+			path = Roots;
+			sourceTree = "<group>";
+		};
+		9A8DFA4A224377D900BAEA84 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA4B224377D900BAEA84 /* YLYRootLabel.h */,
+				9A8DFA4C224377D900BAEA84 /* YLYRootLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		9A8DFA4D224377D900BAEA84 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA4E224377D900BAEA84 /* YLYRootButton.h */,
+				9A8DFA4F224377D900BAEA84 /* YLYRootButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		9A8DFA50224377D900BAEA84 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA51224377D900BAEA84 /* YLYRootView.h */,
+				9A8DFA52224377D900BAEA84 /* YLYRootView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		9A8DFA54224377D900BAEA84 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA55224377D900BAEA84 /* YLYRootImageView.m */,
+				9A8DFA56224377D900BAEA84 /* YLYRootImageView.h */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		9A8DFA57224377D900BAEA84 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA58224377D900BAEA84 /* YLYRootCell.h */,
+				9A8DFA59224377D900BAEA84 /* YLYRootCell.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		9A8DFA5A224377D900BAEA84 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA5B224377D900BAEA84 /* YLYRootTextField.h */,
+				9A8DFA5C224377D900BAEA84 /* YLYRootTextField.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		9A8DFA63224380CA00BAEA84 /* Boot */ = {
+			isa = PBXGroup;
+			children = (
+				9A2F94D722043E32001E14F1 /* BootUnit.h */,
+				9A2F94D822043E32001E14F1 /* BootUnit.m */,
+			);
+			path = Boot;
+			sourceTree = "<group>";
+		};
+		9A8DFA64224380E400BAEA84 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA65224380FC00BAEA84 /* YLYToastHelper.h */,
+				9A8DFA66224380FC00BAEA84 /* YLYToastHelper.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		9A8DFA68224382AF00BAEA84 /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA692243861500BAEA84 /* YLYNotifyHelper.h */,
+				9A8DFA6A2243861500BAEA84 /* YLYNotifyHelper.m */,
+			);
+			path = Notify;
+			sourceTree = "<group>";
+		};
+		9A8DFA7222438A4F00BAEA84 /* MainList */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA7822438A9D00BAEA84 /* Model */,
+				9A8DFA7722438A9500BAEA84 /* Views */,
+				9A8DFA7622438A9000BAEA84 /* VC */,
+			);
+			path = MainList;
+			sourceTree = "<group>";
+		};
+		9A8DFA7322438A7800BAEA84 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA6F2243893B00BAEA84 /* LoginViewController.h */,
+				9A8DFA702243893B00BAEA84 /* LoginViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9A8DFA7422438A8200BAEA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8DFA7522438A8800BAEA84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A8DFA7622438A9000BAEA84 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA7F22438AE000BAEA84 /* MainListViewController.h */,
+				9A8DFA8022438AE000BAEA84 /* MainListViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9A8DFA7722438A9500BAEA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8DFA7822438A9D00BAEA84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A8DFA7922438AA300BAEA84 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA8222438AEB00BAEA84 /* SettingViewController.h */,
+				9A8DFA8322438AEB00BAEA84 /* SettingViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9A8DFA7A22438AA800BAEA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8DFA7B22438AAC00BAEA84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A8DFA7C22438AB100BAEA84 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA8522438AF500BAEA84 /* SearchingViewController.h */,
+				9A8DFA8622438AF500BAEA84 /* SearchingViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9A8DFA7D22438AB500BAEA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8DFA7E22438ABC00BAEA84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A8DFA8822438C7100BAEA84 /* Porperty */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA8922438C8100BAEA84 /* YLYPropertyManager.h */,
+				9A8DFA8A22438C8100BAEA84 /* YLYPropertyManager.m */,
+			);
+			path = Porperty;
+			sourceTree = "<group>";
+		};
+		9A8DFA8C2243903700BAEA84 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9A8DFA8D2243904C00BAEA84 /* YLYRouter.h */,
+				9A8DFA8E2243904C00BAEA84 /* YLYRouter.m */,
+				9A8DFA3E2243759B00BAEA84 /* YLYRootTabbarController.h */,
+				9A8DFA3F2243759B00BAEA84 /* YLYRootTabbarController.m */,
+				9A8DFA41224375D700BAEA84 /* YLYRootNavigationController.h */,
+				9A8DFA42224375D700BAEA84 /* YLYRootNavigationController.m */,
+				9A8DFA6C2243892600BAEA84 /* YLYRootViewController.h */,
+				9A8DFA6D2243892600BAEA84 /* YLYRootViewController.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		9AB3888F21EF18A400EB727D = {
 			isa = PBXGroup;
 			children = (
+				9A2F94F622225E66001E14F1 /* Contant */,
 				9A2F94B82202F2B6001E14F1 /* Categorys */,
 				9A2F94A822019BC2001E14F1 /* Control */,
-				9A2F94A722019A8F001E14F1 /* Units */,
 				9A2F94A6220199FC001E14F1 /* Flows */,
 				9A2F94A522018B22001E14F1 /* Services */,
 				9A2F94A422018B19001E14F1 /* Vendors */,
@@ -214,12 +602,8 @@
 		9AB3889A21EF18A400EB727D /* AccountTool */ = {
 			isa = PBXGroup;
 			children = (
-				9A2F94D722043E32001E14F1 /* BootUnit.h */,
-				9A2F94D822043E32001E14F1 /* BootUnit.m */,
 				9AB3889B21EF18A400EB727D /* AppDelegate.h */,
 				9AB3889C21EF18A400EB727D /* AppDelegate.m */,
-				9AB3889E21EF18A400EB727D /* ViewController.h */,
-				9AB3889F21EF18A400EB727D /* ViewController.m */,
 				9AB388A121EF18A400EB727D /* Main.storyboard */,
 				9AB388A721EF18A600EB727D /* Assets.xcassets */,
 				9AB388A921EF18A600EB727D /* LaunchScreen.storyboard */,
@@ -349,22 +733,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8DFA62224377D900BAEA84 /* YLYRootTextField.m in Sources */,
+				9A8DFA8722438AF500BAEA84 /* SearchingViewController.m in Sources */,
+				9A8DFA8F2243904C00BAEA84 /* YLYRouter.m in Sources */,
+				9A7A8C1D2243ABC1002F44DF /* YLYRootServer.m in Sources */,
+				9A8DFA5E224377D900BAEA84 /* YLYRootButton.m in Sources */,
+				9A7A8C102243A9EC002F44DF /* YLYTrackerServer.m in Sources */,
 				9A2F94F122058937001E14F1 /* UIButton+ExtentMethod.m in Sources */,
+				9A8DFA5D224377D900BAEA84 /* YLYRootLabel.m in Sources */,
+				9A8DFA8122438AE000BAEA84 /* MainListViewController.m in Sources */,
+				9A8DFA712243893B00BAEA84 /* LoginViewController.m in Sources */,
+				9A8DFA6E2243892600BAEA84 /* YLYRootViewController.m in Sources */,
+				9A8DFA402243759B00BAEA84 /* YLYRootTabbarController.m in Sources */,
+				9A8DFA61224377D900BAEA84 /* YLYRootCell.m in Sources */,
 				9A2F94B622019F47001E14F1 /* YLYNetBox.m in Sources */,
 				9A2F94F422058937001E14F1 /* UIColor+ExtendMethod.m in Sources */,
+				9A8DFA43224375D700BAEA84 /* YLYRootNavigationController.m in Sources */,
+				9A8DFA8B22438C8100BAEA84 /* YLYPropertyManager.m in Sources */,
 				9A2F94F522058937001E14F1 /* UILabel+ExtendMethod.m in Sources */,
 				9A2F94F322058937001E14F1 /* NSString+ExtendMethod.m in Sources */,
+				9A7A8C092243A88E002F44DF /* YLYServiceManager.m in Sources */,
+				9A8DFA6B2243861500BAEA84 /* YLYNotifyHelper.m in Sources */,
+				9A7A8C212243B5CA002F44DF /* YLYLocalConfigServer.m in Sources */,
 				9AB388A621EF18A400EB727D /* AccountTool.xcdatamodeld in Sources */,
-				9AB388A021EF18A400EB727D /* ViewController.m in Sources */,
 				9A2F94EF22058937001E14F1 /* NSDictionary+ExtendMethod.m in Sources */,
 				9A2F94D922043E32001E14F1 /* BootUnit.m in Sources */,
+				9A7A8C162243AA04002F44DF /* YLYRouterServer.m in Sources */,
+				9A8DFA60224377D900BAEA84 /* YLYRootImageView.m in Sources */,
+				9A8DFA67224380FC00BAEA84 /* YLYToastHelper.m in Sources */,
 				9A2F94B522019F47001E14F1 /* YLYDownLoadManager.m in Sources */,
 				9AB388AE21EF18A600EB727D /* main.m in Sources */,
+				9A7A8C192243AA10002F44DF /* YLYNetServer.m in Sources */,
 				9A2F94F022058937001E14F1 /* UITextField+ExtentMethod.m in Sources */,
 				9A2F94F222058937001E14F1 /* NSMutableDictionary+ExtendMethod.m in Sources */,
 				9A2F94D622043D22001E14F1 /* YLYHelper.m in Sources */,
+				9A8DFA5F224377D900BAEA84 /* YLYRootView.m in Sources */,
 				9AB3889D21EF18A400EB727D /* AppDelegate.m in Sources */,
 				9A2F94EE22058937001E14F1 /* NSArray+ExtendMethod.m in Sources */,
+				9A8DFA8422438AEB00BAEA84 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

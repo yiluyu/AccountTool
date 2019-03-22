@@ -33,14 +33,5 @@
     }
 }
 
-/* 快速创建 */
-+ (UITextField *)createTextFieldPlaceHolder:(NSString *)placeHolder fontFloat:(CGFloat)fontFloat textColor:(UIColor *)textColor {
-    UITextField *tempTextField = [[UITextField alloc] init];
-    tempTextField.placeholder = [NSString safeString:placeHolder];
-    tempTextField.font = [UIFont systemFontOfSize:(fontFloat > 0)? fontFloat : 8];
-    tempTextField.textColor = textColor;
-    
-    return tempTextField;
-}
 
 @end

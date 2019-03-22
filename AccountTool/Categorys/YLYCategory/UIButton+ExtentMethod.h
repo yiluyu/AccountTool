@@ -21,15 +21,4 @@
                        bottom:(CGFloat)bottom
                          left:(CGFloat)left;
 
-/**
- * @brief 创建button
- * @discussion 创建一个button, frame需要额外设置
- * @param text 显示的文字
- * @param fontFloat 文字大小 不小于8
- * @param color 文字颜色
- */
-+ (UIButton *)createNormalButtonText:(NSString *)text
-                                font:(CGFloat)fontFloat
-                               color:(UIColor *)color;
-
 @end

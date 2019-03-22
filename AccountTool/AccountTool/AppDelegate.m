@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YLYServiceManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 启动服务
+    [YLYServiceManager runAllServices];
+    
+    
     return YES;
 }
 

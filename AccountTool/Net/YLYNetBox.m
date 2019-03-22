@@ -71,7 +71,6 @@
 #import "URLConfig.h"
 #import <AFNetworking.h>
 #import <AFNetworkReachabilityManager.h>
-#import "CategoryConfig.h"
 #import "YLYDefine.h"
 #import "YLYHelper.h"
 
@@ -177,7 +176,7 @@
 - (void)other:(NSDictionary *)retDict {
 //    NSString *code = retDict[@"err_code"];
     YLYLog(@"%@", [retDict safeObjectForKey:@"ret_msg"]);
-    [[YLYHelper shareHelper] showHudViewWithString:retDict[@"ret_msg"]];
+    [YLYToastHelper showHudViewWithString:retDict[@"ret_msg"]];
     if (self.requestOtherBlock) {
         self.requestOtherBlock(retDict);
     }
