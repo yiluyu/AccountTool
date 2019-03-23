@@ -43,10 +43,8 @@
 		9A8DFA8B22438C8100BAEA84 /* YLYPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8A22438C8100BAEA84 /* YLYPropertyManager.m */; };
 		9A8DFA8F2243904C00BAEA84 /* YLYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DFA8E2243904C00BAEA84 /* YLYRouter.m */; };
 		9AB3889D21EF18A400EB727D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3889C21EF18A400EB727D /* AppDelegate.m */; };
-		9AB388A321EF18A400EB727D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB388A121EF18A400EB727D /* Main.storyboard */; };
 		9AB388A621EF18A400EB727D /* AccountTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AB388A421EF18A400EB727D /* AccountTool.xcdatamodeld */; };
 		9AB388A821EF18A600EB727D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB388A721EF18A600EB727D /* Assets.xcassets */; };
-		9AB388AB21EF18A600EB727D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB388A921EF18A600EB727D /* LaunchScreen.storyboard */; };
 		9AB388AE21EF18A600EB727D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB388AD21EF18A600EB727D /* main.m */; };
 		C26FA123D6158135FC21A4CC /* libPods-AccountTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD7BDCBBA39CC49792129F7 /* libPods-AccountTool.a */; };
 /* End PBXBuildFile section */
@@ -132,10 +130,8 @@
 		9AB3889821EF18A400EB727D /* AccountTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB3889B21EF18A400EB727D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AB3889C21EF18A400EB727D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AB388A221EF18A400EB727D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB388A521EF18A400EB727D /* AccountTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountTool.xcdatamodel; sourceTree = "<group>"; };
 		9AB388A721EF18A600EB727D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AB388AA21EF18A600EB727D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB388AC21EF18A600EB727D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB388AD21EF18A600EB727D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDD7BDCBBA39CC49792129F7 /* libPods-AccountTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -604,9 +600,7 @@
 			children = (
 				9AB3889B21EF18A400EB727D /* AppDelegate.h */,
 				9AB3889C21EF18A400EB727D /* AppDelegate.m */,
-				9AB388A121EF18A400EB727D /* Main.storyboard */,
 				9AB388A721EF18A600EB727D /* Assets.xcassets */,
-				9AB388A921EF18A600EB727D /* LaunchScreen.storyboard */,
 				9AB388AC21EF18A600EB727D /* Info.plist */,
 				9AB388AD21EF18A600EB727D /* main.m */,
 				9AB388A421EF18A400EB727D /* AccountTool.xcdatamodeld */,
@@ -681,9 +675,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB388AB21EF18A600EB727D /* LaunchScreen.storyboard in Resources */,
 				9AB388A821EF18A600EB727D /* Assets.xcassets in Resources */,
-				9AB388A321EF18A400EB727D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,25 +767,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9AB388A121EF18A400EB727D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AB388A221EF18A400EB727D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9AB388A921EF18A600EB727D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AB388AA21EF18A600EB727D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9AB388AF21EF18A600EB727D /* Debug */ = {
